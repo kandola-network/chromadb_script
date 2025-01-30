@@ -34,7 +34,7 @@ networks:
 
 services:
   chromadb:
-    image: chromadb/chroma:0.5.16
+    image: chromadb/chroma:0.5.5
     volumes:
       - $CHROMA_DIR:/chroma/chroma
       - $PASSWORD_FILE:/chroma/server.htpasswd
